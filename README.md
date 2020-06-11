@@ -47,7 +47,7 @@ For this model, we use a User Defined Fun-ction to plot the coloured confusion m
 ## Model Evaluation using Test set
 We finally evaluate the accuracy of each of these models against a separate test set (on which the model was not trained), to check the out-of-fold prediction capability of the models. We do this using by calculating 2 indicative parameters: __Jaccard Index__ & __F1 score__. Additionally we also plot the precision and recall values (True Positives/ False Positives/ True Negatives/ False Negatives) for each model to get better visibility on the cases where it is failing. For the Logistic Regression model, we use an adiditional parameter called the Log Loss.
 
-## Conclusion
+# Conclusion
 Lastly, we report the accuracy of the built models using different evaluation metrics:
 
 | Algorithm          | Jaccard | F1-score | LogLoss |
